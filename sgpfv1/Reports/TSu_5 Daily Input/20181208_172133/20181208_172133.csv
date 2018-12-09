@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TSu_5 Daily Input,Chrome 70.0.3538.110,,2018-12-08 17:21:37,2018-12-08 17:22:47,1m - 9.738s,FAILED
+,,,,,,
+Test Cases/Ulogin,Chrome 70.0.3538.110,,2018-12-08 17:21:38,2018-12-08 17:22:02,23.671s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-08 17:21:39,2018-12-08 17:21:50,11.604s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-12-08 17:21:50,2018-12-08 17:21:54,4.361s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-08 17:21:54,2018-12-08 17:22:00,5.266s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-08 17:22:00,2018-12-08 17:22:02,1.815s,PASSED
+,,,,,,
+Test Cases/TC_06 Add Daily Input,Chrome 70.0.3538.110,,2018-12-08 17:22:02,2018-12-08 17:22:46,43.844s,FAILED
+click,Chrome 70.0.3538.110,,2018-12-08 17:22:03,2018-12-08 17:22:06,2.846s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-08 17:22:06,2018-12-08 17:22:09,2.964s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Bs Di).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-12-08 17:22:09,2018-12-08 17:22:45,36.634s,FAILED

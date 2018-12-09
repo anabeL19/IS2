@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSu_8 Balance Simulator" time="27" tests="1" failures="1" errors="0">
+   <testsuite name="TSu_8 Balance Simulator" tests="1" failures="1" errors="0" time="27" timestamp="2018-12-08 17:19:28" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/TSu_8 Balance Simulator">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_8 Balance Simulator\\20181208_171923"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_8 Balance Simulator\\20181208_171923\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_8 Balance Simulator\\20181208_171923\\1544307593387.png"/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="c063f55f83e0501f405cceab9b191a27"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Ulogin" classname="Test Cases/Ulogin" status="PASSED">
+         <system-out><![CDATA[2018-12-08 17:19:28 - [TEST_CASE][PASSED] - Test Cases/Ulogin: Test Cases/Ulogin
+
+2018-12-08 17:19:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-08 17:19:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-08 17:19:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/login/' successfully
+
+2018-12-08 17:19:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/login/' successfully
+
+2018-12-08 17:19:42 - [TEST_STEP][PASSED] - setText: Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 17:19:43 - [MESSAGE][PASSED] - Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 17:19:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 17:19:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_11 Balance Simulator" classname="Test Cases/TC_11 Balance Simulator" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; class=&quot;btn btn-info&quot;>...&lt;/button> is not clickable at point (507, 385). Other element would receive the click: &lt;td class=&quot;active day&quot;>...&lt;/td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)"/>
+         <system-out><![CDATA[2018-12-08 17:19:44 - [TEST_CASE][FAILED] - Test Cases/TC_11 Balance Simulator: Test Cases/TC_11 Balance Simulator FAILED because (of) Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-info">...</button> is not clickable at point (507, 385). Other element would receive the click: <td class="active day">...</td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)
+
+2018-12-08 17:19:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 17:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 17:19:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Balance Simulator' is clicked on
+
+2018-12-08 17:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Balance Simulator' is clicked on
+
+2018-12-08 17:19:47 - [TEST_STEP][FAILED] - Statement - For ([row = 1, row < com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Bs Di).getRowNumbers(), (row++)]): Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-info">...</button> is not clickable at point (507, 385). Other element would receive the click: <td class="active day">...</td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)
+
+2018-12-08 17:19:48 - [TEST_STEP][PASSED] - setText: Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value'
+
+2018-12-08 17:19:49 - [MESSAGE][PASSED] - Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value'
+
+2018-12-08 17:19:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense              In'  using regular expression
+
+2018-12-08 17:19:50 - [MESSAGE][PASSED] - All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense              In'  using regular expression
+
+2018-12-08 17:19:50 - [TEST_STEP][PASSED] - setText: Text '11/10/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-12-08 17:19:51 - [MESSAGE][PASSED] - Text '11/10/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-12-08 17:19:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-12-08 17:19:52 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-12-08 17:19:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-info">...</button> is not clickable at point (507, 385). Other element would receive the click: <td class="active day">...</td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)
+
+2018-12-08 17:19:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-info">...</button> is not clickable at point (507, 385). Other element would receive the click: <td class="active day">...</td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)
+[[ATTACHMENT|C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_8 Balance Simulator\\20181208_171923\\1544307593387.png]]]]></system-out>
+         <system-err><![CDATA[2018-12-08 17:19:44 - [TEST_CASE][FAILED] - Test Cases/TC_11 Balance Simulator: Test Cases/TC_11 Balance Simulator FAILED because (of) Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-info">...</button> is not clickable at point (507, 385). Other element would receive the click: <td class="active day">...</td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-08 17:19:28 - [TEST_SUITE][FAILED] - TSu_8 Balance Simulator: Test Cases/TC_11 Balance Simulator FAILED because (of) Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-info">...</button> is not clickable at point (507, 385). Other element would receive the click: <td class="active day">...</td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)]]></system-out>
+      <system-err><![CDATA[2018-12-08 17:19:28 - [TEST_SUITE][FAILED] - TSu_8 Balance Simulator: Test Cases/TC_11 Balance Simulator FAILED because (of) Unable to click on object 'Object Repository/Page_Budget Management System/button_Simulate this' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-info">...</button> is not clickable at point (507, 385). Other element would receive the click: <td class="active day">...</td>
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AM\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: c063f55f83e0501f405cceab9b191a27)]]></system-err>
+   </testsuite>
+</testsuites>

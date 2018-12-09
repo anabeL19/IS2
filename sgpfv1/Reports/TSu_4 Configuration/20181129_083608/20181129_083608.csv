@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TSu_4 Configuration,Chrome 70.0.3538.110,,2018-11-29 08:36:12,2018-11-29 08:36:53,41.333s,PASSED
+,,,,,,
+Test Cases/Ulogin,Chrome 70.0.3538.110,,2018-11-29 08:36:13,2018-11-29 08:36:27,13.986s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 08:36:14,2018-11-29 08:36:20,6.318s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 08:36:20,2018-11-29 08:36:24,4.250s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 08:36:24,2018-11-29 08:36:26,1.286s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-11-29 08:36:26,2018-11-29 08:36:27,1.214s,PASSED
+,,,,,,
+Test Cases/TC_08 Save Concept,Chrome 70.0.3538.110,,2018-11-29 08:36:27,2018-11-29 08:36:53,26.334s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 08:36:28,2018-11-29 08:36:31,2.852s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 08:36:31,2018-11-29 08:36:31,0.540s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 08:36:31,2018-11-29 08:36:33,1.274s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Concept).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-11-29 08:36:33,2018-11-29 08:36:52,19.370s,PASSED
+closeBrowser,Chrome 70.0.3538.110,,2018-11-29 08:36:52,2018-11-29 08:36:53,1.285s,PASSED

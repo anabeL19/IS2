@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Configuration,Chrome 70.0.3538.102,,2018-11-15 11:53:42,2018-11-15 11:55:14,1m - 32.382s,PASSED
+,,,,,,
+Test Cases/TC_08 Save Concept,Chrome 70.0.3538.102,,2018-11-15 11:53:45,2018-11-15 11:55:14,1m - 28.990s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-15 11:53:46,2018-11-15 11:54:31,44.082s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-15 11:54:31,2018-11-15 11:54:40,9.706s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 11:54:40,2018-11-15 11:54:43,2.989s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,,2018-11-15 11:54:43,2018-11-15 11:54:45,1.474s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 11:54:45,2018-11-15 11:54:49,4.418s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 11:54:49,2018-11-15 11:54:50,0.984s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 11:54:50,2018-11-15 11:54:52,1.869s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Concept).getRowNumbers(), (row++)])",Chrome 70.0.3538.102,,2018-11-15 11:54:52,2018-11-15 11:55:12,19.508s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-15 11:55:12,2018-11-15 11:55:14,2.208s,PASSED

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSu_2 Balance" time="28" tests="2" failures="0" errors="0">
+   <testsuite name="TSu_2 Balance" tests="2" failures="0" errors="0" time="28" timestamp="2018-11-29 07:08:31" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/TSu_2 Balance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_2 Balance\\20181129_070827"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_2 Balance\\20181129_070827\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="867e4e76371e60ed9b3c210d12a4c590"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Ulogin" classname="Test Cases/Ulogin" status="PASSED">
+         <system-out><![CDATA[2018-11-29 07:08:31 - [TEST_CASE][PASSED] - Test Cases/Ulogin: Test Cases/Ulogin
+
+2018-11-29 07:08:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-29 07:08:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-29 07:08:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-29 07:08:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-29 07:08:42 - [TEST_STEP][PASSED] - setText: Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-29 07:08:43 - [MESSAGE][PASSED] - Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-29 07:08:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-11-29 07:08:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_04 Visualize Incomes" classname="Test Cases/TC_04 Visualize Incomes" status="PASSED">
+         <system-out><![CDATA[2018-11-29 07:08:44 - [TEST_CASE][PASSED] - Test Cases/TC_04 Visualize Incomes: Test Cases/TC_04 Visualize Incomes
+
+2018-11-29 07:08:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-29 07:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-29 07:08:46 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Balance).getRowNumbers(), (row++)]): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 07:08:46 - [TEST_STEP][PASSED] - setText: Text '01/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from'
+
+2018-11-29 07:08:48 - [MESSAGE][PASSED] - Text '01/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from'
+
+2018-11-29 07:08:48 - [TEST_STEP][PASSED] - setText: Text '15/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_to'
+
+2018-11-29 07:08:49 - [MESSAGE][PASSED] - Text '15/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_to'
+
+2018-11-29 07:08:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Visualize Incomes' is clicked on
+
+2018-11-29 07:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Visualize Incomes' is clicked on
+
+2018-11-29 07:08:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-29 07:08:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_return' is clicked on
+
+2018-11-29 07:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_return' is clicked on
+
+2018-11-29 07:08:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 07:08:52 - [TEST_STEP][PASSED] - setText: Text '15/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from'
+
+2018-11-29 07:08:53 - [MESSAGE][PASSED] - Text '15/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from'
+
+2018-11-29 07:08:53 - [TEST_STEP][PASSED] - setText: Text '01/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_to'
+
+2018-11-29 07:08:54 - [MESSAGE][PASSED] - Text '01/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_to'
+
+2018-11-29 07:08:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Visualize Incomes' is clicked on
+
+2018-11-29 07:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Visualize Incomes' is clicked on
+
+2018-11-29 07:08:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-29 07:08:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_return' is clicked on
+
+2018-11-29 07:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_return' is clicked on
+
+2018-11-29 07:08:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 07:08:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-29 07:08:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-29 07:08:31 - [TEST_SUITE][PASSED] - TSu_2 Balance: Test Cases/TC_04 Visualize Incomes]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

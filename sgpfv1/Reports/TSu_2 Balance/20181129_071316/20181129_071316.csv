@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TSu_2 Balance,Chrome 70.0.3538.110,,2018-11-29 07:13:20,2018-11-29 07:13:47,27.025s,PASSED
+,,,,,,
+Test Cases/Ulogin,Chrome 70.0.3538.110,,2018-11-29 07:13:21,2018-11-29 07:13:32,11.035s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 07:13:22,2018-11-29 07:13:27,5.607s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 07:13:27,2018-11-29 07:13:30,3.025s,PASSED
+setText,Chrome 70.0.3538.110,,2018-11-29 07:13:30,2018-11-29 07:13:31,0.684s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-11-29 07:13:31,2018-11-29 07:13:32,0.874s,PASSED
+,,,,,,
+Test Cases/TC_05 Visualize Expenses,Chrome 70.0.3538.110,,2018-11-29 07:13:32,2018-11-29 07:13:47,15.059s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-29 07:13:32,2018-11-29 07:13:34,1.688s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Balance).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-11-29 07:13:34,2018-11-29 07:13:46,11.988s,PASSED
+closeBrowser,Chrome 70.0.3538.110,,2018-11-29 07:13:46,2018-11-29 07:13:47,1.046s,PASSED

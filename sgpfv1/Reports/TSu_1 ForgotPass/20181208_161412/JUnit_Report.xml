@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSu_1 ForgotPass" time="50" tests="1" failures="0" errors="0">
+   <testsuite name="TSu_1 ForgotPass" tests="1" failures="0" errors="0" time="50" timestamp="2018-12-08 16:14:17" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/TSu_1 ForgotPass">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_1 ForgotPass\\20181208_161412"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_1 ForgotPass\\20181208_161412\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="7d59d9ab3b5fb15f1cdffbab3fdd7431"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_03 Forgot Password" classname="Test Cases/TC_03 Forgot Password" status="PASSED">
+         <system-out><![CDATA[2018-12-08 16:14:18 - [TEST_CASE][PASSED] - Test Cases/TC_03 Forgot Password: Test Cases/TC_03 Forgot Password
+
+2018-12-08 16:14:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-08 16:14:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-08 16:14:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/login/' successfully
+
+2018-12-08 16:14:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/login/' successfully
+
+2018-12-08 16:14:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/strong_Forgot your password' is clicked on
+
+2018-12-08 16:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/strong_Forgot your password' is clicked on
+
+2018-12-08 16:14:54 - [TEST_STEP][PASSED] - setText: Text '#' is set on object 'Object Repository/Page_Budget Management System/input_email (1)'
+
+2018-12-08 16:14:55 - [MESSAGE][PASSED] - Text '#' is set on object 'Object Repository/Page_Budget Management System/input_email (1)'
+
+2018-12-08 16:14:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Submit' is clicked on
+
+2018-12-08 16:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Submit' is clicked on
+
+2018-12-08 16:14:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-12-08 16:14:59 - [TEST_STEP][PASSED] - setText: Text 'buttersdc748@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email (1)'
+
+2018-12-08 16:15:01 - [MESSAGE][PASSED] - Text 'buttersdc748@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email (1)'
+
+2018-12-08 16:15:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Submit' is clicked on
+
+2018-12-08 16:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Submit' is clicked on
+
+2018-12-08 16:15:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Go Back to Login' is clicked on
+
+2018-12-08 16:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Go Back to Login' is clicked on
+
+2018-12-08 16:15:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-12-08 16:15:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-12-08 16:15:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-08 16:14:17 - [TEST_SUITE][PASSED] - TSu_1 ForgotPass: Test Cases/TC_03 Forgot Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

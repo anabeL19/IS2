@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Configuration" time="92" tests="1" failures="0" errors="0">
+   <testsuite name="Configuration" tests="1" failures="0" errors="0" time="92" timestamp="2018-11-15 11:53:42" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\Configuration\\20181115_115329"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\Configuration\\20181115_115329\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="09aba88dd354a0cd1ed5c3f797358a6d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_08 Save Concept" classname="Test Cases/TC_08 Save Concept" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:53:45 - [TEST_CASE][PASSED] - Test Cases/TC_08 Save Concept: Test Cases/TC_08 Save Concept
+
+2018-11-15 11:53:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 11:54:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 11:54:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-15 11:54:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-15 11:54:40 - [TEST_STEP][PASSED] - setText: Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-15 11:54:43 - [MESSAGE][PASSED] - Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-15 11:54:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-11-15 11:54:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-11-15 11:54:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-15 11:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-15 11:54:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Configuration (1)' is clicked on
+
+2018-11-15 11:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Configuration (1)' is clicked on
+
+2018-11-15 11:54:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Concept' is clicked on
+
+2018-11-15 11:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Concept' is clicked on
+
+2018-11-15 11:54:52 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Concept).getRowNumbers(), (row++)]): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 11:54:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Configuration (1)' is clicked on
+
+2018-11-15 11:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Configuration (1)' is clicked on
+
+2018-11-15 11:54:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Concept' is clicked on
+
+2018-11-15 11:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Concept' is clicked on
+
+2018-11-15 11:54:54 - [TEST_STEP][PASSED] - setText: Text 'food' is set on object 'Object Repository/Page_Budget Management System/input_name'
+
+2018-11-15 11:54:56 - [MESSAGE][PASSED] - Text 'food' is set on object 'Object Repository/Page_Budget Management System/input_name'
+
+2018-11-15 11:54:56 - [TEST_STEP][PASSED] - setText: Text '5000' is set on object 'Object Repository/Page_Budget Management System/input_value (2)'
+
+2018-11-15 11:54:57 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Page_Budget Management System/input_value (2)'
+
+2018-11-15 11:54:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-11-15 11:54:58 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-11-15 11:54:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense'  using regular expression
+
+2018-11-15 11:54:59 - [MESSAGE][PASSED] - All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense'  using regular expression
+
+2018-11-15 11:54:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Save' is clicked on
+
+2018-11-15 11:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Save' is clicked on
+
+2018-11-15 11:55:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 11:55:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Configuration (1)' is clicked on
+
+2018-11-15 11:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Configuration (1)' is clicked on
+
+2018-11-15 11:55:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Concept' is clicked on
+
+2018-11-15 11:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Concept' is clicked on
+
+2018-11-15 11:55:04 - [TEST_STEP][PASSED] - setText: Text '#' is set on object 'Object Repository/Page_Budget Management System/input_name'
+
+2018-11-15 11:55:05 - [MESSAGE][PASSED] - Text '#' is set on object 'Object Repository/Page_Budget Management System/input_name'
+
+2018-11-15 11:55:05 - [TEST_STEP][PASSED] - setText: Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value (2)'
+
+2018-11-15 11:55:06 - [MESSAGE][PASSED] - Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value (2)'
+
+2018-11-15 11:55:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-11-15 11:55:08 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-11-15 11:55:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense'  using regular expression
+
+2018-11-15 11:55:09 - [MESSAGE][PASSED] - All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense'  using regular expression
+
+2018-11-15 11:55:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Save' is clicked on
+
+2018-11-15 11:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Save' is clicked on
+
+2018-11-15 11:55:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 11:55:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:55:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 11:53:42 - [TEST_SUITE][PASSED] - Configuration: Test Cases/TC_08 Save Concept]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSu_6 Balance Simulator" time="28" tests="2" failures="0" errors="0">
+   <testsuite name="TSu_6 Balance Simulator" tests="2" failures="0" errors="0" time="28" timestamp="2018-11-29 09:14:56" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/TSu_6 Balance Simulator">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_6 Balance Simulator\\20181129_091450"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_6 Balance Simulator\\20181129_091450\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="d8276b66661d5f3407455b819dace04c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Ulogin" classname="Test Cases/Ulogin" status="PASSED">
+         <system-out><![CDATA[2018-11-29 09:14:57 - [TEST_CASE][PASSED] - Test Cases/Ulogin: Test Cases/Ulogin
+
+2018-11-29 09:14:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-29 09:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-29 09:15:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-29 09:15:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-29 09:15:09 - [TEST_STEP][PASSED] - setText: Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-29 09:15:10 - [MESSAGE][PASSED] - Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-29 09:15:10 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-11-29 09:15:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_11 Balance Simulator" classname="Test Cases/TC_11 Balance Simulator" status="PASSED">
+         <system-out><![CDATA[2018-11-29 09:15:12 - [TEST_CASE][PASSED] - Test Cases/TC_11 Balance Simulator: Test Cases/TC_11 Balance Simulator
+
+2018-11-29 09:15:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-29 09:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-29 09:15:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Balance Simulator' is clicked on
+
+2018-11-29 09:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Balance Simulator' is clicked on
+
+2018-11-29 09:15:16 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row < com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Bs Di).getRowNumbers(), (row++)]): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 09:15:16 - [TEST_STEP][PASSED] - setText: Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value'
+
+2018-11-29 09:15:17 - [MESSAGE][PASSED] - Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value'
+
+2018-11-29 09:15:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense              In'  using regular expression
+
+2018-11-29 09:15:18 - [MESSAGE][PASSED] - All options with value 'False' are selected in object 'Object Repository/Page_Budget Management System/select_Expense              In'  using regular expression
+
+2018-11-29 09:15:18 - [TEST_STEP][PASSED] - setText: Text '11/10/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-11-29 09:15:20 - [MESSAGE][PASSED] - Text '11/10/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-11-29 09:15:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-11-29 09:15:21 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Budget Management System/select_No Period'  using regular expression
+
+2018-11-29 09:15:21 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 09:15:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-29 09:15:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-29 09:14:56 - [TEST_SUITE][PASSED] - TSu_6 Balance Simulator: Test Cases/TC_11 Balance Simulator]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

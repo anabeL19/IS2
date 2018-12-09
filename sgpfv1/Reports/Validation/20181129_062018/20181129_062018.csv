@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validation,Chrome 70.0.3538.110,,2018-11-29 06:20:22,2018-11-29 06:21:53,1m - 30.557s,PASSED
+,,,,,,
+Test Cases/TC_01 SignUp,Chrome 70.0.3538.110,,2018-11-29 06:20:23,2018-11-29 06:21:53,1m - 29.561s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 06:20:24,2018-11-29 06:20:33,8.773s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 06:20:33,2018-11-29 06:20:36,2.750s,PASSED
+"Statement - For ([row = 1, row < com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Sign Up).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-11-29 06:20:36,2018-11-29 06:21:51,1m - 15.107s,PASSED
+closeBrowser,Chrome 70.0.3538.110,,2018-11-29 06:21:51,2018-11-29 06:21:53,1.699s,PASSED

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TSu_1 Sign Up</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-12-09T12:22:03</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c03c6e01-fc5f-46c5-a5bf-6ecc97f15327</testSuiteGuid>
+   <testCaseLink>
+      <guid>4e49eb38-9ac9-4f85-a291-be5aba00021f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_01 SignUp</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6dc3ded2-4c47-43f8-bbf8-496bb936c19a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c6f8a7c-7fc0-405e-a5d0-76cf52ff6141</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ba20af3-9fa5-4e0e-9e2d-bf9a6915eb09</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3ffaa48-8569-4123-9e9e-074ba7d7a2e7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Configuration" time="105" tests="0" failures="2" errors="0">
+   <testsuite name="Configuration" tests="0" failures="2" errors="0" time="105" timestamp="2018-11-29 05:07:55" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\Configuration\\20181129_050746"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\Configuration\\20181129_050746\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+      </properties>
+      <testcase name="Test Cases/Ulogin" classname="Test Cases/Ulogin" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x445159 - &lt;no info>
+   3:           0x44c838 - &lt;no info>
+   4:           0x43026a - &lt;no info>
+   5:           0x40ba4e - &lt;no info>
+   6:           0x4119b9 - &lt;no info>
+   7:           0x6d2c89 - &lt;no info>
+   8:           0x426006 - &lt;no info>
+   9:           0x6cd490 - &lt;no info>
+  10:     0x7ff9ff7e3034 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-11-29 05:07:58 - [TEST_CASE][FAILED] - Test Cases/Ulogin: Test Cases/Ulogin FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ff9ff7e3034 - BaseThreadInitThunk)
+
+2018-11-29 05:08:00 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ff9ff7e3034 - BaseThreadInitThunk)
+
+2018-11-29 05:09:40 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ff9ff7e3034 - BaseThreadInitThunk)]]></system-out>
+         <system-err><![CDATA[2018-11-29 05:07:58 - [TEST_CASE][FAILED] - Test Cases/Ulogin: Test Cases/Ulogin FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ff9ff7e3034 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_08 Save Concept" classname="Test Cases/TC_08 Save Concept" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Budget Management System/button_Sign In' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-11-29 05:09:40 - [TEST_CASE][FAILED] - Test Cases/TC_08 Save Concept: Test Cases/TC_08 Save Concept FAILED because (of) Unable to click on object 'Object Repository/Page_Budget Management System/button_Sign In' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-11-29 05:09:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Budget Management System/button_Sign In' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-11-29 05:09:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-11-29 05:09:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Budget Management System/button_Sign In' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-11-29 05:09:40 - [TEST_CASE][FAILED] - Test Cases/TC_08 Save Concept: Test Cases/TC_08 Save Concept FAILED because (of) Unable to click on object 'Object Repository/Page_Budget Management System/button_Sign In' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-29 05:07:55 - [TEST_SUITE][FAILED] - Configuration: Test Cases/Ulogin FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ff9ff7e3034 - BaseThreadInitThunk)]]></system-out>
+      <system-err><![CDATA[2018-11-29 05:07:55 - [TEST_SUITE][FAILED] - Configuration: Test Cases/Ulogin FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A9QU20P', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ff9ff7e3034 - BaseThreadInitThunk)]]></system-err>
+   </testsuite>
+</testsuites>

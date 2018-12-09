@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validation,Chrome 70.0.3538.110,,2018-11-29 06:49:19,2018-11-29 06:51:08,1m - 48.867s,PASSED
+,,,,,,
+Test Cases/TC_02 Sign In,Chrome 70.0.3538.110,,2018-11-29 06:49:20,2018-11-29 06:49:48,28.595s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 06:49:21,2018-11-29 06:49:27,6.968s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 06:49:27,2018-11-29 06:49:31,3.171s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Sign In).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-11-29 06:49:31,2018-11-29 06:49:47,16.281s,PASSED
+closeBrowser,Chrome 70.0.3538.110,,2018-11-29 06:49:47,2018-11-29 06:49:48,1.229s,PASSED
+,,,,,,
+Test Cases/TC_02 Sign In,Chrome 70.0.3538.110,,2018-11-29 06:49:48,2018-11-29 06:50:11,22.827s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 06:49:48,2018-11-29 06:49:51,2.979s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 06:49:51,2018-11-29 06:49:54,2.796s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Sign In).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-11-29 06:49:54,2018-11-29 06:50:10,16.045s,PASSED
+closeBrowser,Chrome 70.0.3538.110,,2018-11-29 06:50:10,2018-11-29 06:50:11,0.952s,PASSED
+,,,,,,
+Test Cases/TC_02 Sign In,Chrome 70.0.3538.110,,2018-11-29 06:50:11,2018-11-29 06:50:36,25.362s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 06:50:11,2018-11-29 06:50:15,3.542s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 06:50:15,2018-11-29 06:50:18,3.334s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Sign In).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-11-29 06:50:18,2018-11-29 06:50:35,17.467s,PASSED
+closeBrowser,Chrome 70.0.3538.110,,2018-11-29 06:50:35,2018-11-29 06:50:36,1.000s,PASSED
+,,,,,,
+Test Cases/TC_02 Sign In,Chrome 70.0.3538.110,,2018-11-29 06:50:36,2018-11-29 06:51:07,31.090s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-29 06:50:36,2018-11-29 06:50:39,2.712s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 06:50:39,2018-11-29 06:50:44,4.701s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Sign In).getRowNumbers(), (row++)])",Chrome 70.0.3538.110,,2018-11-29 06:50:44,2018-11-29 06:51:06,22.525s,PASSED
+closeBrowser,Chrome 70.0.3538.110,,2018-11-29 06:51:06,2018-11-29 06:51:07,1.119s,PASSED

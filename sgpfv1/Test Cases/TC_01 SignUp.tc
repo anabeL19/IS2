@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_01 SignUp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e910174-1d34-489d-bb78-757e73411d5c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6dc3ded2-4c47-43f8-bbf8-496bb936c19a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c6f8a7c-7fc0-405e-a5d0-76cf52ff6141</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ba20af3-9fa5-4e0e-9e2d-bf9a6915eb09</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3ffaa48-8569-4123-9e9e-074ba7d7a2e7</id>
+      <masked>false</masked>
+      <name>repeat_password</name>
+   </variable>
+</TestCaseEntity>

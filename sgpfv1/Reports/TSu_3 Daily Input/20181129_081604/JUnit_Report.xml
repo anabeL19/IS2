@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSu_3 Daily Input" time="33" tests="2" failures="0" errors="0">
+   <testsuite name="TSu_3 Daily Input" tests="2" failures="0" errors="0" time="33" timestamp="2018-11-29 08:16:08" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/TSu_3 Daily Input">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_3 Daily Input\\20181129_081604"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_3 Daily Input\\20181129_081604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="7f7e96d417e8f2c4c6e1ed1a03ff722c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Ulogin" classname="Test Cases/Ulogin" status="PASSED">
+         <system-out><![CDATA[2018-11-29 08:16:09 - [TEST_CASE][PASSED] - Test Cases/Ulogin: Test Cases/Ulogin
+
+2018-11-29 08:16:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-29 08:16:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-29 08:16:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-29 08:16:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/login/' successfully
+
+2018-11-29 08:16:20 - [TEST_STEP][PASSED] - setText: Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-29 08:16:21 - [MESSAGE][PASSED] - Text 'stefanie' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-11-29 08:16:21 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-11-29 08:16:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Budget Management System/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_07 Delete Daily Input" classname="Test Cases/TC_07 Delete Daily Input" status="PASSED">
+         <system-out><![CDATA[2018-11-29 08:16:22 - [TEST_CASE][PASSED] - Test Cases/TC_07 Delete Daily Input: Test Cases/TC_07 Delete Daily Input
+
+2018-11-29 08:16:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-29 08:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-11-29 08:16:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/a_Daily Input' is clicked on
+
+2018-11-29 08:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/a_Daily Input' is clicked on
+
+2018-11-29 08:16:26 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Bs Di).getRowNumbers(), (row++)]): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 08:16:27 - [TEST_STEP][PASSED] - setText: Text '02/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-11-29 08:16:29 - [MESSAGE][PASSED] - Text '02/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-11-29 08:16:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '41' are selected in object 'Object Repository/Page_Budget Management System/select_Cartera'  using regular expression
+
+2018-11-29 08:16:31 - [MESSAGE][PASSED] - All options with value '41' are selected in object 'Object Repository/Page_Budget Management System/select_Cartera'  using regular expression
+
+2018-11-29 08:16:31 - [TEST_STEP][PASSED] - setText: Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value (1)'
+
+2018-11-29 08:16:32 - [MESSAGE][PASSED] - Text '-233' is set on object 'Object Repository/Page_Budget Management System/input_value (1)'
+
+2018-11-29 08:16:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Delete' is clicked on
+
+2018-11-29 08:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Delete' is clicked on
+
+2018-11-29 08:16:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 08:16:34 - [TEST_STEP][PASSED] - setText: Text '02/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-11-29 08:16:35 - [MESSAGE][PASSED] - Text '02/09/2018' is set on object 'Object Repository/Page_Budget Management System/input_from_date'
+
+2018-11-29 08:16:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '41' are selected in object 'Object Repository/Page_Budget Management System/select_Cartera'  using regular expression
+
+2018-11-29 08:16:37 - [MESSAGE][PASSED] - All options with value '41' are selected in object 'Object Repository/Page_Budget Management System/select_Cartera'  using regular expression
+
+2018-11-29 08:16:37 - [TEST_STEP][PASSED] - setText: Text '5000' is set on object 'Object Repository/Page_Budget Management System/input_value (1)'
+
+2018-11-29 08:16:38 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Page_Budget Management System/input_value (1)'
+
+2018-11-29 08:16:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Delete' is clicked on
+
+2018-11-29 08:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Delete' is clicked on
+
+2018-11-29 08:16:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-29 08:16:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-29 08:16:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-29 08:16:08 - [TEST_SUITE][PASSED] - TSu_3 Daily Input: Test Cases/TC_07 Delete Daily Input]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

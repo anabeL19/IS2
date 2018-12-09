@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSu_2 Sign In" time="83" tests="1" failures="0" errors="0">
+   <testsuite name="TSu_2 Sign In" tests="1" failures="0" errors="0" time="83" timestamp="2018-12-08 16:55:38" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/TSu_2 Sign In">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_2 Sign In\\20181208_165532"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\TSu_2 Sign In\\20181208_165532\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="5e82cb79a43f021fa55785775ae79f16"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_02 Sign In" classname="Test Cases/TC_02 Sign In" status="PASSED">
+         <system-out><![CDATA[2018-12-08 16:55:40 - [TEST_CASE][PASSED] - Test Cases/TC_02 Sign In: Test Cases/TC_02 Sign In
+
+2018-12-08 16:55:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-08 16:56:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-08 16:56:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/login/' successfully
+
+2018-12-08 16:56:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/login/' successfully
+
+2018-12-08 16:56:22 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Sign In).getRowNumbers(), (row++)]): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-12-08 16:56:22 - [TEST_STEP][PASSED] - setText: Text 'yessica' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:25 - [MESSAGE][PASSED] - Text 'yessica' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:25 - [TEST_STEP][PASSED] - setText: Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:26 - [MESSAGE][PASSED] - Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-12-08 16:56:32 - [TEST_STEP][PASSED] - setText: Text 'Hermenegildo' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:33 - [MESSAGE][PASSED] - Text 'Hermenegildo' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:33 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:34 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:35 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-12-08 16:56:37 - [TEST_STEP][PASSED] - setText: Text 'Hermenegildo' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:39 - [MESSAGE][PASSED] - Text 'Hermenegildo' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:39 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:39 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-12-08 16:56:43 - [TEST_STEP][PASSED] - setText: Text 'yessica' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:44 - [MESSAGE][PASSED] - Text 'yessica' is set on object 'Object Repository/Page_Budget Management System/input_username'
+
+2018-12-08 16:56:44 - [TEST_STEP][PASSED] - setText: Text 'gatitos9876' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:45 - [MESSAGE][PASSED] - Text 'gatitos9876' is set on object 'Object Repository/Page_Budget Management System/input_password'
+
+2018-12-08 16:56:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign In' is clicked on
+
+2018-12-08 16:56:57 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-12-08 16:56:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-12-08 16:57:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-08 16:55:38 - [TEST_SUITE][PASSED] - TSu_2 Sign In: Test Cases/TC_02 Sign In]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

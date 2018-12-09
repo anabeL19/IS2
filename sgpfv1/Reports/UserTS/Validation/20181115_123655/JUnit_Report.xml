@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validation" time="330" tests="1" failures="0" errors="0">
+   <testsuite name="Validation" tests="1" failures="0" errors="0" time="330" timestamp="2018-11-15 12:37:00" hostname="AM - DESKTOP-A9QU20P" id="Test Suites/UserTS/Validation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\UserTS\\Validation\\20181115_123655"/>
+         <property name="logFiles" value="C:\\Users\\AM\\Documents\\Katalon Studio\\sgpf\\Reports\\UserTS\\Validation\\20181115_123655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AM - DESKTOP-A9QU20P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="71781008d7e8c83c1ace169948c233e3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_01 SignUp" classname="Test Cases/TC_01 SignUp" status="PASSED">
+         <system-out><![CDATA[2018-11-15 12:37:01 - [TEST_CASE][PASSED] - Test Cases/TC_01 SignUp: Test Cases/TC_01 SignUp
+
+2018-11-15 12:37:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 12:37:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 12:37:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8000/signup/' successfully
+
+2018-11-15 12:37:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8000/signup/' successfully
+
+2018-11-15 12:37:54 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row < com.kms.katalon.core.testdata.TestDataFactory.findTestData(TD Sign Up).getRowNumbers(), (row++)]): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:37:54 - [TEST_STEP][PASSED] - setText: Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:37:55 - [MESSAGE][PASSED] - Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:37:55 - [TEST_STEP][PASSED] - setText: Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:37:56 - [MESSAGE][PASSED] - Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:37:56 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:37:57 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:37:57 - [TEST_STEP][PASSED] - setText: Text '1235' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:37:57 - [MESSAGE][PASSED] - Text '1235' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:37:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:39:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:40:00 - [TEST_STEP][PASSED] - setText: Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:40:01 - [MESSAGE][PASSED] - Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:40:01 - [TEST_STEP][PASSED] - setText: Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:40:01 - [MESSAGE][PASSED] - Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:40:01 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:40:01 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:40:01 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:40:02 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:40:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:41:18 - [TEST_STEP][PASSED] - setText: Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:18 - [MESSAGE][PASSED] - Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:18 - [TEST_STEP][PASSED] - setText: Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:18 - [MESSAGE][PASSED] - Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:18 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:20 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:20 - [TEST_STEP][PASSED] - setText: Text 'perritos1235' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:21 - [MESSAGE][PASSED] - Text 'perritos1235' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:41:35 - [TEST_STEP][PASSED] - setText: Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:36 - [MESSAGE][PASSED] - Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:36 - [TEST_STEP][PASSED] - setText: Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:36 - [MESSAGE][PASSED] - Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:36 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:37 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:37 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:38 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:41:41 - [TEST_STEP][PASSED] - setText: Text 'Dalila' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:42 - [MESSAGE][PASSED] - Text 'Dalila' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:42 - [TEST_STEP][PASSED] - setText: Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:42 - [MESSAGE][PASSED] - Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:42 - [TEST_STEP][PASSED] - setText: Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:44 - [MESSAGE][PASSED] - Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:44 - [TEST_STEP][PASSED] - setText: Text '753' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:44 - [MESSAGE][PASSED] - Text '753' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:45 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:41:47 - [TEST_STEP][PASSED] - setText: Text 'Dalila' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:49 - [MESSAGE][PASSED] - Text 'Dalila' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:49 - [TEST_STEP][PASSED] - setText: Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:49 - [MESSAGE][PASSED] - Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:49 - [TEST_STEP][PASSED] - setText: Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:49 - [MESSAGE][PASSED] - Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:49 - [TEST_STEP][PASSED] - setText: Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:50 - [MESSAGE][PASSED] - Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:50 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:41:52 - [TEST_STEP][PASSED] - setText: Text 'Dalila' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:53 - [MESSAGE][PASSED] - Text 'Dalila' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:53 - [TEST_STEP][PASSED] - setText: Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:53 - [MESSAGE][PASSED] - Text 'Anabel@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:41:53 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:53 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:41:53 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:54 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:41:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:41:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:41:57 - [TEST_STEP][PASSED] - setText: Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:58 - [MESSAGE][PASSED] - Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:41:58 - [TEST_STEP][PASSED] - setText: Text 'Ernesto@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:42:02 - [MESSAGE][PASSED] - Text 'Ernesto@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:42:02 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:42:02 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:42:02 - [TEST_STEP][PASSED] - setText: Text '1235' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:42:03 - [MESSAGE][PASSED] - Text '1235' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:42:03 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:42:05 - [TEST_STEP][PASSED] - setText: Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:42:06 - [MESSAGE][PASSED] - Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:42:06 - [TEST_STEP][PASSED] - setText: Text 'Ernesto@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:42:06 - [MESSAGE][PASSED] - Text 'Ernesto@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:42:06 - [TEST_STEP][PASSED] - setText: Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:42:08 - [MESSAGE][PASSED] - Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:42:08 - [TEST_STEP][PASSED] - setText: Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:42:08 - [MESSAGE][PASSED] - Text '159' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:42:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:42:10 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:42:12 - [TEST_STEP][PASSED] - setText: Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:42:12 - [MESSAGE][PASSED] - Text 'Anabel' is set on object 'Object Repository/Page_Budget Management System/input_username (1)'
+
+2018-11-15 12:42:12 - [TEST_STEP][PASSED] - setText: Text 'Ernesto@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:42:12 - [MESSAGE][PASSED] - Text 'Ernesto@gmail.com' is set on object 'Object Repository/Page_Budget Management System/input_email'
+
+2018-11-15 12:42:12 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:42:13 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password1'
+
+2018-11-15 12:42:13 - [TEST_STEP][PASSED] - setText: Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:42:14 - [MESSAGE][PASSED] - Text 'perritos1234' is set on object 'Object Repository/Page_Budget Management System/input_password2'
+
+2018-11-15 12:42:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Budget Management System/button_Sign Up' is clicked on
+
+2018-11-15 12:42:14 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-11-15 12:42:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 12:42:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 12:37:00 - [TEST_SUITE][PASSED] - Validation: Test Cases/TC_01 SignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
